@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 94%;
+  padding: 40px;
+  position: absolute;
+  top: 15%;
+  z-index: 1;
+}
+
+.city {
+  color: white;
+  z-index: 1;
+  &--climate {
+    font-size: 34px;
+    font-weight: 700;
+    font-family: 'Lato';
+  }
+  &--city {
+    font-size: 22px;
+    font-weight: 300;
+  }
+  &--temperature {
+    font-size: 44px;
+    font-weight: 800;
+  }
+  &--title {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  &--value {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  &--coordinates {
+    font-size: 14px;
+    font-weight: 300;
+  }
+}
+
+.cityWrap {
+  color: white;
+  z-index: 1;
+}
+
+.climate_icon {
+  z-index: 1;
+  width: 130px;
+  margin-left: -20px;
+  margin-top: -20px;
+  &--small {
+    width: 28px;
+    margin-right: 15px;
+  }
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.ml25 {
+  margin-left: 25px;
+}
+
+.mr25 {
+  margin-right: 25px;
+}
